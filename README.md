@@ -29,4 +29,7 @@ Ser declarativo
 Método de tabla
  
 
-Código de C++:
+Código de C++:.
+
+Copilador en linea de  c++
+https://www.programiz.com/cpp-programming/online-compiler/
