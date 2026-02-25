@@ -1,0 +1,89 @@
+Un metodo o fundion es un bloque  de codigo que contiene una seire de instruciones
+
+Razones comunes para crear una funcion 
+*evitar duplicidad
+*Evitar sangria
+*Recodar la intencion
+*Mantener una sola responsabilidad
+
+Ejemplo 
+*los mismo beneficios de los parrafos
+
+-Evitar duplicidad
+Nadie lo notara .Me asegure de cambiar el metodo
+
+Prinvicios indispensables
+Kiss
+Keep it simple
+hazlo simple
+
+Yagni
+No hagas mas de lo que necesita
+
+Dry
+No repita
+
+Las causas de la dupliciacion de codigo se puede resumir
+
+1. No anticipar que funciones clase y/o modulos debe ser desarrollados
+2. Nuevos requerimientos deben ser desarrolados en corto ciclos de tiempo
+
+Sangria exesiva
+Forma de flecha
+
+Codigo flecha hace referencia a los niveles produndos de ssangria, los cuales son un signo de que un metodo tiene alta complejidad ciclomatica
+
+Eliminar codigo flecha
+1.Podemos extraer un metodo
+Es cuando refactorizamos es a menudo mas simple comenzar codigo el codigo mas profundamente anidado y trabajar su salida
+
+
+2.Fallar rapido
+
+3.Retorno temprano
+  happy pad, ecenario ideal 
+
+
+Transmatir la intencion
+funciones que revelen su intencion
+
+Hacer una sola cosa
+
+Ventajas de hacer una sola cosa
+AYuda al lector
+NOmbre de metodo bien Definido resumen su intenrior
+FUncionalmente
+
+Facil Nomenclatura y Prueba
+Al realizar una sola cosa es mas facil nombraas prueba initarias
+
+Promueve la reutilizacion 
+
+
+Variables efimeras
+
+
+numero de parametros 2
+Un alto numero de parametros hacer que una funcion sea dificl de seguir y es un signo fuerte 
+
+Parametro Bandera
+
+que es demaciado largo en funcion?
+Cuando una funcion ocupa una scroll para abajo puede ser demaciado largo
+
+sintoma para determinar si la funcion es muy grande
+
+1.No cabe en pantallla
+2.Problemas para nombrar
+3.Mutiples condicionales
+4.Dificiles de digerir
+
+
+rara vez deben ser mas de so lineas
+Casi nunca mas de 100 lineas
+No deben tener mas de 2 parametros
+
+try catch es un problema porque olvidamos
+dar seguimiento  porque niguan debe paasar por debjo de la mesa, todas se deben controlar.
+
+solo es valido en consumo de api o en produccion
